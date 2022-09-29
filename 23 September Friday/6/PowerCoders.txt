@@ -1,0 +1,12 @@
+1) The goal is to print numbers one by one from 1 to 100 in different forms.
+2) We need to create a loop that provides us to count numbers.
+3) There must be an interrogation for each step:
+   a) Hello number, are you a multiply of 5 AND not a multiply of 7?
+      -If yes, then I will give an order to print "Power". If not, you can pass on to the second question.
+   b) Are you a multiply of 7 AND not a multiply of 5?
+      -If yes, then I will give an order to print "Coders". If not, you can pass on to the third question.
+   c) Are you a multiply of 5 and 7 at the same time?
+      -If yes, then I will give an order to print "PowerCoders".
+      -If not, then I will give an order to print the number as it is. Next, please!
+
+

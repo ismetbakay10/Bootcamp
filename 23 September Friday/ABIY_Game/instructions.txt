@@ -1,0 +1,23 @@
+Now it is 08:00 here in Bern, and you have to meet your girlfriend in 5 hours.
+So You have to find your way to her by the help of our instructions.
+Don't panic if you get to a wrong way we will lead you back by our instructions to the right and the shortest way.
+TIC TAK TIC TAK !
+
+Choose from the list to get to the first station.
+Biel
+Thun
+Bern
+Visp
+       ^
+       |
+       +
+       |
+       |
+       |
+       |
+       |
+       A
+      ===                ________
+     /EEE\               |______|
+    //EEE\\              |*(  )*|         
+___//_____\\_____________|O|  |O|_______

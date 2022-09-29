@@ -1,0 +1,11 @@
+/* Placing the image in the middle of the page */
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+/* Rounding the image */
+img {
+  border-radius: 50%;
+}
