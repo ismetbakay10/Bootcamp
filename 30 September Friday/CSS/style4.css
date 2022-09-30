@@ -28,7 +28,7 @@ nav {
   align-items: center;
   height: 100px;
   border: 1px solid;
-  background-color:red
+  background-color:rgb(242, 166, 166)
 }
 
 .box {
@@ -41,4 +41,9 @@ nav {
   height: 40px;
   border: 2px solid white;
   background-color:yellow;
+}
+img {
+  width:200px;
+  height:40px;
+  float: right;
 }
