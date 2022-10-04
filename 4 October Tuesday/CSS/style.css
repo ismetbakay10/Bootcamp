@@ -1,0 +1,18 @@
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    border: 5px solid rgb(86,98,110);
+    border-radius: 5px;    
+}
+
+.box{
+    border-radius: 5px;
+    padding: 10px;
+    background-color:rgb(89,161,175);
+    padding-left: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    flex: 1 1 250px
+
+}
