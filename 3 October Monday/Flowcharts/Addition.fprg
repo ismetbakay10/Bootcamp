@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ismet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-03 04:33:14 PM"/>
+        <attribute name="created" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wMzswMjo0ODo1OSBQTTsyMzg1"/>
+        <attribute name="edited" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wMzswNDozMzoxNCBQTTs5OzI0ODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Number1" type="Integer" array="False" size=""/>
+            <declare name="Number2" type="Integer" array="False" size=""/>
+            <declare name="Number3" type="Integer" array="False" size=""/>
+            <declare name="Number4" type="Integer" array="False" size=""/>
+            <declare name="Number5" type="Integer" array="False" size=""/>
+            <declare name="result" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the first number&quot;" newline="True"/>
+            <input variable="number1"/>
+            <output expression="&quot;Enter the second number&quot;" newline="True"/>
+            <input variable="number2"/>
+            <output expression="&quot;Enter the third number&quot;" newline="True"/>
+            <input variable="number3"/>
+            <output expression="&quot;Enter the fourth number&quot;" newline="True"/>
+            <input variable="number4"/>
+            <output expression="&quot;Enter the fifth number&quot;" newline="True"/>
+            <input variable="number5"/>
+            <assign variable="result" expression="number1+number2+number3+number4+number5"/>
+            <output expression="&quot;The sum of the numbers is: &quot; &amp;result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
