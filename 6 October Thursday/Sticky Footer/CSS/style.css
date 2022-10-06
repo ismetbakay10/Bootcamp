@@ -1,0 +1,27 @@
+.navbar {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background-color: rgb(250, 90, 90);
+   color: white;
+   text-align: center;
+}
+
+main div {
+   height: 50vh;
+   background-color: rgb(218, 213, 213);
+   margin: 12vh 3vw;
+
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(250, 90, 90);
+   color: white;
+   text-align: center;
+}
