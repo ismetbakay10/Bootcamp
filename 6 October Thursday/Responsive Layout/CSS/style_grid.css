@@ -1,0 +1,92 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr 1fr 0.5fr 1fr;
+  grid-template-areas:
+    "navbar navbar navbar"
+    "header header header"
+    "yellow purple red"
+    "blue blue blue"
+    "footer footer footer";
+    font-family:"Inter", sans-serif;
+    font-size: 20px;
+}
+
+.navbar {
+  background-color: rgb(0, 140, 255);
+  grid-area: navbar;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 204, 255);
+  grid-area: header;
+}
+#yellow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(251, 255, 0);
+  grid-area: yellow;
+}
+#purple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(216, 154, 216);
+  grid-area: purple;
+}
+#red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 167, 167);
+  grid-area: red;
+}
+#blue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(152, 181, 224);
+  grid-area: blue;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  grid-area: footer;
+}
+
+@media (max-width: 1084px) {
+    .container {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 0.5fr 1fr 0.5fr 0.5fr;
+  grid-template-areas:
+    "navbar navbar"
+    "header header"
+    "footer footer"
+    "blue yellow"
+    "red purple"
+    ;
+}
+
+@media (max-width: 550) {
+    .container {
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 0.5fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-areas:
+    "navbar"
+    "header"
+    "footer"
+    "blue"
+    "yellow"
+    "red"
+    "purple"
+    ;
+}
+
+}
+}
