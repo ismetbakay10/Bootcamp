@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+}
+
+.navbar {
+  display: grid;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(250, 90, 90);
+  color: white;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  height: 88vh;
+}
+
+main div {
+  height: 40vh;
+  background-color: rgb(218, 213, 213);
+  margin: 40px 50px;
+}
+
+.footer {
+  display: grid;
+  align-items: center;
+  text-align: center;
+
+  width: 100%;
+  background-color: rgb(250, 90, 90);
+  color: white;
+}
