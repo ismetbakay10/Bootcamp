@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ismet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 04:35:42 PM"/>
+        <attribute name="created" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzswMzo0ODoyMCBQTTsyMzc4"/>
+        <attribute name="edited" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzswNDozNTo0MiBQTTszOzI0ODk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="noun" type="String" array="False" size=""/>
+            <declare name="verb" type="String" array="False" size=""/>
+            <declare name="adverb" type="String" array="False" size=""/>
+            <declare name="adjective" type="String" array="False" size=""/>
+            <declare name="name" type="String" array="False" size=""/>
+            <output expression="&quot;Enter a noun&quot;" newline="True"/>
+            <input variable="noun"/>
+            <output expression="&quot;Enter a verb&quot;" newline="True"/>
+            <input variable="verb"/>
+            <output expression="&quot;Enter a adverb&quot;" newline="True"/>
+            <input variable="adverb"/>
+            <output expression="&quot;Enter a adjective&quot;" newline="True"/>
+            <input variable="adjective"/>
+            <output expression="&quot;What is your name?&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="name &amp;&quot; &quot; &amp;verb &amp;&quot; &quot; &amp;adjective &amp;&quot; &quot; &amp;noun &amp;&quot; &quot; &amp;adverb" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

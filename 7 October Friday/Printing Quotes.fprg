@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ismet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 03:43:00 PM"/>
+        <attribute name="created" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzswMzozMjozMyBQTTsyMzc1"/>
+        <attribute name="edited" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzswMzo0MzowMCBQTTsyOzI0ODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quotation" type="String" array="False" size=""/>
+            <declare name="author" type="String" array="False" size=""/>
+            <output expression="&quot;Enter an author name&quot;" newline="True"/>
+            <input variable="author"/>
+            <output expression="&quot;What does he/she say?&quot;" newline="True"/>
+            <input variable="quotation"/>
+            <output expression="author &amp; &quot; says, &quot; &amp; &quot;'&quot; &amp;quotation &amp; &quot;'&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

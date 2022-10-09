@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ismet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 03:32:08 PM"/>
+        <attribute name="created" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzswMTo0NjozOSBQTTsyMzg0"/>
+        <attribute name="edited" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzswMzozMjowOCBQTTsyOzI0ODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="word" type="String" array="False" size=""/>
+            <declare name="result" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter a word please&quot;" newline="True"/>
+            <input variable="word"/>
+            <assign variable="result" expression="len(word)"/>
+            <output expression="word&amp; &quot;-Number of characters: &quot; &amp;result" newline="True"/>
+        </body>
+    </function>
+    <function name="counter" type="String" variable="result">
+        <parameters>
+            <parameter name="letter" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="result" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter a word&quot;" newline="True"/>
+            <input variable="word"/>
+        </body>
+    </function>
+</flowgorithm>
