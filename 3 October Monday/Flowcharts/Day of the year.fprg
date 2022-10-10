@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ismet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-04 05:07:29 PM"/>
+        <attribute name="created" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNDswNDozNDozNiBQTTsyMzc4"/>
+        <attribute name="edited" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNDswNTowNzoyOSBQTTs4OzI0OTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="day" type="Integer" array="False" size=""/>
+            <declare name="month" type="Integer" array="False" size=""/>
+            <declare name="result" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the day date please. (1-31) Ex:15&quot;" newline="True"/>
+            <input variable="day"/>
+            <output expression="&quot;Enter the month date please (1-12). Ex:3&quot;" newline="True"/>
+            <input variable="month"/>
+            <if expression="month==1">
+                <then>
+                    <assign variable="result" expression="day"/>
+                    <output expression="&quot;This is the day of the year: &quot; &amp;result" newline="True"/>
+                </then>
+                <else>
+                    <if expression="month==2">
+                        <then>
+                            <assign variable="result" expression="day+31"/>
+                            <output expression="&quot;This is the day of the year: &quot; &amp;result" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="month==3">
+                                <then>
+                                    <assign variable="result" expression="day+31+28"/>
+                                    <output expression="&quot;This is the day of the year: &quot; &amp;result" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="month==4">
+                                        <then>
+                                            <assign variable="result" expression="day+31+28+31"/>
+                                            <output expression="&quot;This is the day of the year: &quot; &amp;result" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="month==5">
+                                                <then>
+                                                    <assign variable="result" expression="day+31+28+31+30"/>
+                                                    <output expression="&quot;This is the day of the year: &quot; &amp;result" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="month==6">
+                                                        <then>
+                                                            <assign variable="result" expression="day+31+28+31+30+31"/>
+                                                            <output expression="&quot;This is the day of the year: &quot; &amp;result" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="month==7">
+                                                                <then>
+                                                                    <assign variable="result" expression="day+31+28+31+30+31+30"/>
+                                                                    <output expression="&quot;This is the day of the year: &quot; &amp;result" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="month==8">
+                                                                        <then>
+                                                                            <assign variable="result" expression="day+31+28+31+30+31+30+31"/>
+                                                                            <output expression="&quot;This is the day of the year: &quot; &amp;result" newline="True"/>
+                                                                        </then>
+                                                                        <else>
+                                                                            <if expression="month==9">
+                                                                                <then>
+                                                                                    <assign variable="result" expression="day+31+28+31+30+31+30+31+31"/>
+                                                                                    <output expression="&quot;This is the day of the year: &quot; &amp;result" newline="True"/>
+                                                                                </then>
+                                                                                <else>
+                                                                                    <if expression="month==10">
+                                                                                        <then>
+                                                                                            <assign variable="result" expression="day+31+28+31+30+31+30+31+31+30"/>
+                                                                                            <output expression="&quot;This is the day of the year: &quot; &amp;result" newline="True"/>
+                                                                                        </then>
+                                                                                        <else>
+                                                                                            <if expression="month==11">
+                                                                                                <then>
+                                                                                                    <assign variable="result" expression="day+31+28+31+30+31+30+31+31+30+31"/>
+                                                                                                    <output expression="&quot;This is the day of the year: &quot; &amp;result" newline="True"/>
+                                                                                                </then>
+                                                                                                <else>
+                                                                                                    <assign variable="result" expression="day+31+28+31+30+31+30+31+31+30+31+30"/>
+                                                                                                    <output expression="&quot;This is the day of the year: &quot; &amp;result" newline="True"/>
+                                                                                                </else>
+                                                                                            </if>
+                                                                                        </else>
+                                                                                    </if>
+                                                                                </else>
+                                                                            </if>
+                                                                        </else>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
