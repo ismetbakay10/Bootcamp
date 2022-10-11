@@ -1,5 +1,4 @@
 // Want to find out how old you'll be? Calculate it!
-
 // Store your birth year in a variable.
 // Store a future year in a variable.
 // Calculate your 2 possible ages for that year based on the stored values.
@@ -7,24 +6,24 @@
 // Output them to the screen/console like so: "I will be either NN or NN in YYYY", substituting the values.
 
 const birthYear = 1984;
-const futureYear = 2022;
-const futureAgeA = futureYear - birthYear - 1;
-const futureAgeB = futureYear - birthYear;
+let futureYear = 2055;
+let ageBeforeBirthday = futureYear - birthYear - 1;
+let ageAfterBirthday = futureYear - birthYear;
 
 alert(
   "I will be either " +
-    futureAgeA +
+    ageBeforeBirthday +
     " or " +
-    futureAgeB +
+    ageAfterBirthday +
     " years old in " +
     futureYear
 );
 
 console.log(
   "I will be either " +
-    futureAgeA +
+    ageBeforeBirthday +
     " or " +
-    futureAgeB +
+    ageAfterBirthday +
     " years old in " +
     futureYear
 );
