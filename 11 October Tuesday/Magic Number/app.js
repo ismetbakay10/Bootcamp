@@ -8,12 +8,15 @@ let magicNumber = Math.floor(Math.random() * 100);
 console.log(magicNumber)
 
 let guess = prompt("Guess the magic number");
-if (guess == magicNumber) {
-  alert("Congrutlations!");
+
+while (guess != magicNumber) {
+  if (guess > magicNumber) {
+    alert("It is smaller");
+  }
+  if (guess < magicNumber) {
+    alert("It is bigger");
+  }
+  //  let guess = prompt("Try again!");
 }
-if (guess < magicNumber) {
-    prompt("Please bigger")
-}
-else {
-    prompt("Please smaller");
-}
+
+alert("Bravo you found it");
