@@ -1,0 +1,12 @@
+step1: input1 "user Age"
+step2: if the value of the input1 is not an integar warn the user (Please type a number) and go step1
+step3: assign the value of the input1 to the variable1
+step4: input2 "The age the user would like to retire"
+step5: if the value of the input2 is not an integar warn the user (Please type a number) and go step4
+step6: if the value of the input2 is smaller than the variable1 warn the user (Please type a number bigger than your current age) and go step4
+step7: assign the value of the input2 to the variable2
+step8: progress1 "variable2 - variable1"
+step9: assignment currentYear "catch the currentYear by using date() function"
+step10: progress2 "currentYear + the result of the progress1"
+step11: output1 "Show the result of the progress1" (You have <progress1> years left until you can retire.)
+step12: output2 "Show the result of the progress2" (It's <currentYear>, so you can retire in <progress2>.)

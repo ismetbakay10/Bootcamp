@@ -1,0 +1,22 @@
+1. (Input) The first input is the user's age
+ 1.1. A message must be shown to the user to type it.
+ 1.2. It must be an integer otherwise the user must be warned to type a valid age
+ 1.3. It must be assigned to a variable just after the user type it
+
+2. (Input) The second input is the age that the user would like to retire at
+ 1.1. A message must be shown to the user to type it.
+ 2.2. It must be an integer otherwise the user must be warned to type a valid age
+ 2.3. It must be bigger than the value of the first input otherwise the user must be warned to type a bigger age
+ 2.4. It must be assigned to a variable just after the user type it
+
+3. (Process) The first process is calculating how many years the user has left until he/she can
+   retire by subtracting his/her age from the age he/she would like to retire at
+
+4. (Process) The second process is calculating the year the user can retire in by adding
+   his/her age to currentYear.
+   4.1. To detrmine the current year JavaScript Date Objects can be used so the currentYear must be
+   assigned to a variable
+
+5. (Output) The result-step3 must be shown to the user
+
+6. (Output) The result-step4 must be shown to the user

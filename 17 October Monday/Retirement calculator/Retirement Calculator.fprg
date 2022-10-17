@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ismet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-17 04:54:26 PM"/>
+        <attribute name="created" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0xNzswNDozMjo1OSBQTTsyMzg1"/>
+        <attribute name="edited" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0xNzswNDo1NDoyNiBQTTs5OzI0OTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="currentAge" type="Integer" array="False" size=""/>
+            <declare name="retireAge" type="Integer" array="False" size=""/>
+            <declare name="yearsLeft" type="Integer" array="False" size=""/>
+            <declare name="whichYear" type="Integer" array="False" size=""/>
+            <declare name="currentYear" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter your age&quot;" newline="True"/>
+            <input variable="currentAge"/>
+            <output expression="&quot;Enter which age you would like to retire at&quot;" newline="True"/>
+            <input variable="retireAge"/>
+            <assign variable="yearsLeft" expression="retireAge-currentAge"/>
+            <output expression="&quot;You have &quot; &amp;yearsLeft &amp;&quot; years left until you can retire.&quot;" newline="True"/>
+            <assign variable="currentYear" expression="2022"/>
+            <assign variable="whichYear" expression="currentYear+yearsLeft"/>
+            <output expression="&quot;It's &quot; &amp;currentYear &amp;&quot;, so you can retire in &quot; &amp;whichYear" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
