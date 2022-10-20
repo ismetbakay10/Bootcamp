@@ -10,7 +10,7 @@ var victory = false;
 
 // Cell constructor
 function Cell() {
-  this.discovered = false;
+  this.discovered = true;
   this.isBomb = false;
   this.hasBeenFlagged = false;
 }
@@ -24,9 +24,15 @@ for (var row = 0; row < ROWS_COUNT; row++) {
   }
 }
 
-//
 // TODO: Task 1 - add some bombs at fixed positions.
-//
+cells[0][0].isBomb = true;
+cells[1][7].isBomb = true;
+cells[4][9].isBomb = true;
+cells[8][2].isBomb = true;
+cells[9][2].isBomb = true;
+cells[9][9].isBomb = true;
+
+
 
 //
 // TODO: Task 2 - Comment out the code of task 1. Instead of adding bombs in fixed places, add 10 of them in random places.
