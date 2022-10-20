@@ -1,0 +1,21 @@
+To-do list
+
+Mandatory:
+1. Add a task
+2. Modify the task
+3. Delete an already added task
+4. Add a deadline to a task
+5. Modify a task
+6. Assign the priority
+7. Mark a task as completed
+
+
+Nice to have:
+1. Add images
+2. Assign a color to a task
+3. Set up a reminder
+4. Put in order depending to the importance, deadline, etc.
+5. Auto-delete after the task was completed
+6. Changeable view style
+7. Add hidden details
+
