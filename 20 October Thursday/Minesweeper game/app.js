@@ -50,10 +50,9 @@ render();
 //
 
 function discoverCell(row, col) {
-  //
   // TODO: Task 5 - Reveal cells when clicked.
-  //
-  //
+ cells[row][col].discovered = true;
+ 
   // TODO: Task 6 - Discover neighbor cells recursively, as long as there are no adjacent bombs to the current cell.
   //
   //
@@ -73,20 +72,19 @@ function flagCell(row, col) {
 function countAdjacentBombs(row, col) {
   // TODO: Task 4 - Adjacent bombs are bombs in cells touching our cell (also diagonally). Implement this function
   //                so that it returns the count of adjacent cells with bombs in them.
-   let adjBombs = 0;
+  let adjBombs = 0;
 
-   for (let rowIndex = row - 1; rowIndex <= row + 1; rowIndex++) {
-     if (rowIndex < 0 || rowIndex > ROWS_COUNT - 1) continue;
-     for (let colIndex = col - 1; colIndex <= col + 1; colIndex++) {
-       if (colIndex < 0 || rowIndex > COLS_COUNT - 1) continue;
-       if (cells[rowIndex][colIndex] != undefined) {
-         cells[rowIndex][colIndex].isBomb ? adjBombs++ : (adjBombs = adjBombs);
-       }
-     }
-   }
+  for (let rowIndex = row - 1; rowIndex <= row + 1; rowIndex++) {
+    if (rowIndex < 0 || rowIndex > ROWS_COUNT - 1) continue;
+    for (let colIndex = col - 1; colIndex <= col + 1; colIndex++) {
+      if (colIndex < 0 || rowIndex > COLS_COUNT - 1) continue;
+      if (cells[rowIndex][colIndex] != undefined) {
+        cells[rowIndex][colIndex].isBomb ? adjBombs++ : (adjBombs = adjBombs);
+      }
+    }
+  }
 
-   return adjBombs;
-
+  return adjBombs;
 }
 
 function getBombsCount() {
