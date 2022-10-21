@@ -21,7 +21,7 @@ for (let index = 0; index < books.length; index++) {
              <li>Title: ${books[index].title}</li>
              <li>Author: ${books[index].author}</li>
              <li>alreadyRead: ${books[index].alreadyRead}</li>
-             <li><img src="${books[index].image}" width="300px"></li>
+             <li><img src="${books[index].image}"></li>
             </ul>
             `;
   bookContainer.innerHTML = book;
