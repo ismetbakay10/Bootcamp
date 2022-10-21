@@ -1,0 +1,39 @@
+*{
+    background-color:rgb(237, 164, 68);
+}
+
+h1{
+    display: flex;
+    justify-content:center;
+    background-color:antiquewhite;
+
+}
+
+section{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+ul{
+    background-color:antiquewhite;
+    padding:20px;
+    border: 1px solid black;
+    width:19%;
+    height:100%;
+}
+
+li{
+    width:100%;
+    height:10%;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    list-style-type:none;
+    background-color:antiquewhite;
+
+}
+
+img{
+    padding: 20px;
+    background-color:antiquewhite;
+
+}
