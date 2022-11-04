@@ -1,0 +1,94 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 2fr;
+  grid-template-areas:
+    "navbar"
+    "section";
+  font-size: 20px;
+  background-image: linear-gradient(
+      rgba(10, 10, 10, 0.5),
+      rgba(12, 12, 12, 0.5)
+    ),
+    url("./img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  grid-area: navbar;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.sign-up {
+  display: flex;
+}
+
+.language {
+  display: flex;
+}
+#btn-sign-in {
+  margin: 0 10px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border-color: transparent;
+}
+#btn-lang {
+  margin: 0 10px;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+}
+
+.section {
+  grid-area: section;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 130px;
+}
+
+h1 {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+h1,
+h4,
+h6 {
+  margin: 7px;
+  color: white;
+}
+
+#btn-get-started {
+  margin-left: -6px;
+  background-color: red;
+  color: white;
+  height: 42px;
+  border-color: transparent;
+}
+
+input {
+  height: 35px;
+  width: 400px;
+  background-color: white;
+  border-color: transparent;
+}
+
+.buttton {
+  margin: 10px;
+}
