@@ -1,0 +1,45 @@
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+p {
+  display: inline;
+  font-size: 100px;
+  margin-top: 0px;
+  color:white;
+}
+
+nav {
+  display: flex;
+  height: 40px;
+  background-color: #306bac;
+}
+
+button {
+    background-color:transparent;
+    color:white;
+  width: 17%;
+  border: 1px solid #377bc4;
+  
+}
+
+button:hover{
+    cursor: pointer;
+}
+input {
+  width: 17%;
+}
+
+
+section {
+    height: 100vh;
+    background-image:linear-gradient(to right, #4691ec, #2869b8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    color: #fff;
+}
