@@ -10,8 +10,8 @@
 </head>
 
 <body class="container">
-  <nav class="navbar">
- 
+  <nav class="navbar-left">
+
     <ul>
       <li>
         <button class="button"><a href="index.html">HOME</a></button>
@@ -21,15 +21,21 @@
       </li>
       <li>
         <button class="button">
-          <a href="work_experience.html">WORK EXPERIENCE</a>
+          <a href="work_experience.html">WORK EXP</a>
         </button>
       </li>
+      
+    </ul>
+  </nav>
+  <nav class="navbar-right">
+  
+    <ul>
       <li>
         <button class="button"><a href="education.html">EDUCATION</a></button>
       </li>
       <li>
         <button class="button">
-          <a href="volunteer_experience.html">VOLUNTEER EXPERIENCE</a>
+          <a href="volunteer_experience.html">VOLUNTEER</a>
         </button>
       </li>
       <li>
@@ -38,42 +44,37 @@
     </ul>
   </nav>
   <aside class="aside">
-    <img src="./images/Me-removebg-preview.png" alt="" />
+    <img id="profile-image" src="./images/Me-removebg-preview.png" alt="" onclick="aboutMeInformation()"/>
   </aside>
   <section class="section">
     <h1>Welcome to My Portfolio</h1>
-    <h2>About me</h2>
+    <h3 id="About-Me" onclick="aboutMeInformation()">About me</h3>
     <article>
-      <p>I was born in 1984 in Turkey.</p>
-      </summary>
-      <p>I graduated from university in 2008 as a mathematics teacher and did my job until I left my country, in 2016. I
-        am married and have a 9 year-old son. I have been living in Geneva for 2 years. I got the B2 certificate in
-        French and this year I followed the computer science courses at the University of Geneva as an audience student.
-        I also followed the Fullstack Web Programming courses at HiCoders and I would like to join Powercoders community
-        to practice my newly acquired skills.</p>
-
+      
+    </article>
 
   </section>
   <footer class="footer">
     <ul>
-      <ul>
+      
         <li>
-          <a href=""><img class="icon" src="./icon/square-instagram.svg" alt="" /></a>
+          <a href="https://github.com/ismetbakay10"><img class="icon" src="./icon/github.svg" alt="" width="50px" /></a>
+        </li>
+        
+        <li>
+          <a href="https://www.linkedin.com/in/ismet-bakay-a2184b222?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BnNKLuzzeQu%2BhSfef6TQSvQ%3D%3D"><img class="icon" src="./icon/linkedin.svg" alt="" width="50px" /></a>
+        </li>
+        <!-- <li>
+          <a href=""><img class="icon" src="./icon/twitter.svg" alt="" width="50px" onclick="warning()"/></a>
+        </li> -->
+        <li>
+          <a href=""><img class="icon" src="./icon/square-instagram.svg" alt="" onclick="warning()"/></a>
         </li>
         <li>
-          <a href=""><img class="icon" src="./icon/linkedin.svg" alt="" width="50px" /></a>
-        </li>
-        <li>
-          <a href=""><img class="icon" src="./icon/twitter.svg" alt="" width="50px" /></a>
-        </li>
-        <li>
-          <a href=""><img class="icon" src="./icon/youtube.svg" alt="" width="50px" /></a>
-        </li>
-        <li>
-          <a href=""><img class="icon" src="./icon/facebook.svg" alt="" width="50px" /></a>
+          <a href=""><img class="icon" src="./icon/facebook.svg" alt="" width="50px" onclick="warning()"/></a>
         </li>
       </ul>
-    </ul>
+   
   </footer>
 
   <script src="app.js"></script>
